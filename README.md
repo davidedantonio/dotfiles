@@ -205,3 +205,5 @@ xcode-select --install
 - [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) - Use lazygit within Neovim
 
 ### Github Copilot Integration
+
+- [github/copilot.vim](https://github.com/github/copilot.vim) - Github Copilot Integration for Vim and Neovim
