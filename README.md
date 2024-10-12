@@ -1,5 +1,8 @@
 # Personal Dotfiles 🚀
 
+![WezTerm screenshot](./images/Screenshot-1.png)
+![Neovim screenshot](./images/Screenshot-2.png)
+
 **IMPORTANT:** These are primarily meant for inspiration. I wouldn't just blindly use them. Proceed at your own risk!
 
 ## Terminal Setup
