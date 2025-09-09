@@ -100,10 +100,6 @@ export BAT_THEME=tokyonight_night
 
 alias ls="eza --icons=always"
 alias ll="ls -allh"
-alias eduardo="ssh -l root eduardo.s.finanza.tech -p 4242"
-alias sofia1="ssh -l root sofia-1.s.finanza.tech -p 4242"
-alias sofia2="ssh -l root sofia-2.s.finanza.tech -p 4242"
-alias gerardo="ssh root@217.198.130.117"
 # ---- TheFuck -----
 
 # thefuck alias
