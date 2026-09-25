@@ -1,6 +1,9 @@
 vim.g.mapleader = " "
 local map = vim.keymap.set
 
+vim.keymap.set({ "n", "x" }, "x", '"_x')
+vim.keymap.set({ "n", "x" }, "X", '"_X')
+
 -- custom functions
 vim.keymap.set(
 	"n",

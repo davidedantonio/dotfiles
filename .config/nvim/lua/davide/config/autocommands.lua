@@ -35,12 +35,17 @@ vim.api.nvim_create_autocmd("ExitPre", {
 vim.api.nvim_create_autocmd("FileType", {
 	pattern = "markdown",
 	callback = function()
-		vim.opt.wrap = false
-		vim.opt.linebreak = true
-		vim.opt.tabstop = 2
-		vim.opt.shiftwidth = 2
-		vim.bo.softtabstop = 2
-		vim.opt.expandtab = true
+		vim.opt_local.wrap = true
+		vim.opt_local.linebreak = true
+		vim.opt_local.breakindent = true
+
+		vim.opt_local.tabstop = 2
+		vim.opt_local.shiftwidth = 2
+		vim.opt_local.softtabstop = 2
+		vim.opt_local.expandtab = true
+
+		vim.opt_local.textwidth = 120
+		vim.opt_local.formatoptions:append({ "t" })
 	end,
 })
 
